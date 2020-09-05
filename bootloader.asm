@@ -1,6 +1,8 @@
 [bits 16]
 [org 0x7c00]
 
+global start
+
 start:
     xor ax,ax
     mov ds,ax
