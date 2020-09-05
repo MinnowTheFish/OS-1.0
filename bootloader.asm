@@ -3,9 +3,9 @@
 [org 0x7c00]
 
 start:
-    mov ax, 1
-    mov bx, 0
-    int 0x80
+    xor ax,ax
+    mov ds,ax
+    mov es,ax
 
 times 510-($-$$) db 0
 dw 0xAA55
