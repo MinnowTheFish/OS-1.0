@@ -1,7 +1,7 @@
 [bits 16]
 [org 0x7c00]
 
-start:
+_start:
     xor ax,ax 
     mov ds,ax           
     mov es,ax           
