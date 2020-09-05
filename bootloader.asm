@@ -5,6 +5,6 @@ start:
     xor ax,ax
     mov ds,ax
     mov es,ax
-
-times 510-($-$$) db 0
-dw 0xAA55
+    
+    times 510-($-$$) db 0
+    dw 0xAA55
